@@ -14,6 +14,9 @@ setup(
     author="cftang0827",
     author_email='cftang0827@gmail.com',
     url='https://github.com/cftang0827/pip_package_example',
+    install_requires=[
+        "numpy>=1.17.0"
+    ],
     packages=[
         'pip_package_example',
     ],
